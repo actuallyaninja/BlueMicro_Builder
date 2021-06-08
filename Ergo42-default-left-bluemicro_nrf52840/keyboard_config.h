@@ -31,7 +31,7 @@ LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR P
 
 #define DEVICE_MODEL                         "Ergo42BLE"                          /**< Name of device. Will be included in the advertising data. */
 
-#define MANUFACTURER_NAME                    "db"                      /**< Manufacturer. Will be passed to Device Information Service. */
+#define MANUFACTURER_NAME                    "Biacco42"                      /**< Manufacturer. Will be passed to Device Information Service. */
 
 
 #if KEYBOARD_SIDE == RIGHT
