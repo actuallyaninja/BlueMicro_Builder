@@ -103,9 +103,9 @@ void setupKeymap() {
         KEYMAP( \
   KC_TILD , KC_EXLM, KC_AT,   KC_HASH, KC_DLR,  KC_PERC, KC_UNDS,  \
   KC_TILD , KC_EXLM, KC_AT,   KC_HASH, KC_DLR,  KC_PERC, KC_UNDS,  \
-  KC_DEL  , KC_F1  , KC_F2  , KC_F3  , KC_F4  , KC_F5  , KC_LPRN,   \
+  KC_DEL  , KC_F1  , KC_F2  , KC_F3  , KC_F4  , KC_F5  , KC_LPRN,  \
   KC_LSFT , KC_F7  , KC_F8  , KC_F9  , KC_F10 , KC_F11 , KC_SPC,  \
-  KC_LCTL , KC_LGUI, KC_LALT, LAYER_3, LAYER_1, KC_SPC,  _______ \
+  LAYER_3 , KC_LGUI, KC_LALT, LAYER_3, LAYER_1, KC_SPC,  _______ \
 );
 
     /* Layer 3
@@ -121,11 +121,11 @@ void setupKeymap() {
  */
     uint32_t layer3[MATRIX_ROWS][MATRIX_COLS] =
         KEYMAP( \
-  KC_GRAVE, KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,    _______,  \
-  KC_GRAVE, KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,    _______,  \
- _______,   _______, _______, _______, _______, _______,  _______,   \
-  KC_LSFT,  _______, _______, _______, _______, _______,  KC_SPC,  \
-  KC_LCTL , KC_LGUI, KC_LALT, LAYER_3, LAYER_1, KC_SPC,   _______ \
+  KC_GRAVE, KC_F1,   BLEPROFILE_1,   BLEPROFILE_2,  BLEPROFILE_3,  KC_F5,    _______,  \
+  KC_GRAVE, KC_F1,   KC_F2,          KC_F3,         KC_F4,         KC_F5,    _______,  \
+ _______,   _______, _______,        _______,       _______,       _______,  _______,  \
+  KC_LSFT,  _______, _______,        _______,       _______,       _______,   KC_SPC,  \
+  KC_LGUI,  KC_LALT, LAYER_3,        LAYER_1,       KC_SPC,        _______,  _______ \
 );
 
     /*

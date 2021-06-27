@@ -25,13 +25,13 @@ LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR P
 #define KEYBOARD_SIDE RIGHT
 // CHANGE THIS FOR THE KEYBOARD TO MATCH WHAT IS BEING FLASHED. OPTIONS: LEFT  RIGHT  SINGLE
 
-#define DEVICE_NAME_R                         "Ergo42BLE_R"                          /**< Name of device. Will be included in the advertising data. */
-#define DEVICE_NAME_L                        "Ergo42BLE_L"                          /**< Name of device. Will be included in the advertising data. */
-#define DEVICE_NAME_M                         "Ergo42BLE"                          /**< Name of device. Will be included in the advertising data. */
+#define DEVICE_NAME_R                        "ViterbiBLE_R"                          /**< Name of device. Will be included in the advertising data. */
+#define DEVICE_NAME_L                        "ViterbiBLE_L"                          /**< Name of device. Will be included in the advertising data. */
+#define DEVICE_NAME_M                        "ViterbiBLE"                          /**< Name of device. Will be included in the advertising data. */
 
-#define DEVICE_MODEL                        "Ergo42BLE"                          /**< Name of device. Will be included in the advertising data. */
+#define DEVICE_MODEL                         "ViterbiBLE"                          /**< Name of device. Will be included in the advertising data. */
 
-#define MANUFACTURER_NAME                   "Biacco42"                      /**< Manufacturer. Will be passed to Device Information Service. */
+#define MANUFACTURER_NAME                    "keebio"                      /**< Manufacturer. Will be passed to Device Information Service. */
 
 
 
@@ -40,26 +40,30 @@ LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR P
       k00, k01, k02, k03, k04, k05, k06, \
       k10, k11, k12, k13, k14, k15, k16, \
       k20, k21, k22, k23, k24, k25, k26, \
-      k30, k31, k32, k33, k34, k35,  k36 \
+      k30, k31, k32, k33, k34, k35, k36, \
+      k40, k41, k42, k43, k44, k45, k46  \
 ) \
 { \
     { k06, k05, k04, k03, k02, k01, k00 }, \
     { k16, k15, k14, k13, k12, k11, k10 }, \
     { k26, k25, k24, k23, k22, k21, k20 }, \
-    { k36, k35, k34, k33, k32, k31, k30 } \
+    { k36, k35, k34, k33, k32, k31, k30 }, \
+    { k46, k45, k44, k43, k42, k41, k40 } \
 }
 #else
 #define KEYMAP( \
       k00, k01, k02, k03, k04, k05, k06, \
       k10, k11, k12, k13, k14, k15, k16, \
       k20, k21, k22, k23, k24, k25, k26, \
-      k30, k31, k32, k33, k34, k35,  k36 \
+      k30, k31, k32, k33, k34, k35, k36, \
+      k40, k41, k42, k43, k44, k45, k46 \
 ) \
 { \
     { k00, k01, k02, k03, k04, k05, k06 }, \
     { k10, k11, k12, k13, k14, k15, k16 }, \
     { k20, k21, k22, k23, k24, k25, k26 }, \
-    { k30, k31, k32, k33, k34, k35, k36 } \
+    { k30, k31, k32, k33, k34, k35, k36 }, \
+    { k40, k41, k42, k43, k44, k45, k46 } \
 } 
 
 #endif
