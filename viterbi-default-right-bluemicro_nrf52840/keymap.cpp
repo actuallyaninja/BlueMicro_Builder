@@ -39,6 +39,7 @@ void setupKeymap() {
 }
 #endif
 
+#if KEYBOARD_SIDE == LEFT
 
 /* Qwerty
  * ,------------------------------------------------.
