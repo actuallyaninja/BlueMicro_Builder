@@ -74,7 +74,7 @@ void setupKeymap() {
   // |------+------+------+------+------+------+------|
   // | VolDn| VolUp| MB2  | M-UP | MB1  | MW-DN|      |
   // |------+------+------+------+------+------+------|
-  // |      |      | M-LT | M-DN | M-RT | MW-UP|      |
+  // | Mute |      | M-LT | M-DN | M-RT | MW-UP|      |
   // |------+------+------+------+------+------+------|
   // |      | CAPS | MACL0| MACL1| MACL2|      |      |
   // |------+------+------+------+------+------+------|
@@ -86,7 +86,7 @@ void setupKeymap() {
         KEYMAP( \
   KC_TILD,  _______, KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,  \
   KC_VOLD,  KC_VOLU, KC_BTN2, KC_MS_U, KC_BTN1, KC_WH_D, _______,  \
-  _______,  _______, KC_MS_L, KC_MS_D, KC_MS_R, KC_WH_U, _______,  \
+  KC_MUTE,  _______, KC_MS_L, KC_MS_D, KC_MS_R, KC_WH_U, _______,  \
   _______,  KC_CAPS, KC_ACL0, KC_ACL1, KC_ACL2, _______, _______,  \
   _______,  _______, KC_BTN3, KC_BTN4, KC_BTN5, _______, _______  \
 );
